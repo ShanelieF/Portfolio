@@ -15,10 +15,10 @@ function About(props){
         <Container fluid={true}>
           <Row className="justify-content-around">
           <Col md={8} sm={10}>
-                      <h3 style={{ fontSize:'46px', fontWeight: 'bold'}}>Born in 1999 in the small state of <mark>Goa</mark>, India.</h3>
-                      <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>Currently living in the <mark style={{background:'rgba(39, 237, 191, 0.1)'}}>United Kingdom</mark></h4>
+                      <h3 style={{ fontSize:'46px', fontWeight: 'bold'}}>A <mark>little</mark> bit about me</h3>
+
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} >
-                    <p>  Having moved to the UK at age 12, I quickly accomodated to a different culture. My schooling experience in India has made me
+                    <p className="pt-4">I was born in 99' in Goa, India and currently reside in the UK. Having moved to the UK at age 12, I quickly accomodated to a different culture. My schooling experience in India has made me
                     competitive and has directed me to being focused to achieve my goals.
                     Having completed my GCSE’s and A-levels in the UK, I have enjoyed the application and tutorial approach.
                     The different approaches to learning have influenced me to be the person I am – focused, tenacious and determined.</p>
@@ -31,13 +31,13 @@ function About(props){
                       <Emoji symbol="😎" label="B)" /> </p>
 
 
-                      <p>Here is a list of frameworks/languages I have worked with:
-                      </p>
-                      <ul>
-                      <li>JAVA</li>
-                      <li>SQL</li>
-                      <li>HTML/CSS</li>
-                      </ul>
+
+                        <Row id={'bottom'} className="pl-3 pt-3" style={{ fontSize:'14px', fontWeight: 'bold'}}>LANGUAGES I'VE WORKED WITH </Row>
+                      <p className=" pt-3">Java, SQL, Bash, C, HTML/CSS, JavaScript, Python, Prolog, Javacc</p>
+
+                      <Row id={'bottom'} className="pl-3 pt-4" style={{ fontSize:'14px', fontWeight: 'bold'}}>TOOLS/FRAMEWORKS </Row>
+                    <p className=" pt-3">React, Semantic UI, Bootstrap, SQLite, Processing, UNIX, LaTeX/BibTeX, Axios</p>
+
 
 
 
@@ -49,7 +49,6 @@ function About(props){
           </Row>
         </Container>
       </Jumbotron>
-
       </Container>
 
 

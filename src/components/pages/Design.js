@@ -3,7 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Emoji from 'a11y-react-emoji'
+import Emoji from 'a11y-react-emoji';
 
 import space from '../../assets/space.png';
 
@@ -14,7 +14,6 @@ class Design extends React.Component {
 
 
     return(
-
       <Container fluid="xl" className="justify-content-center pt-5">
       <Jumbotron className="bg-transparent ">
         <Container fluid={true}>

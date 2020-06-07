@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,40 +12,17 @@ import Mvis from "./components/pages/Mvis";
 import Footer from "./components/Footer"
 import Software from "./components/pages/Software"
 
-class App extends React.Component {
+function App() {
 
-  constructor(props){
-    super(props);
-    this.state ={
-      title: "SHANELIE FERNANDES",
-      headerLinks: [
-        {title: 'HOME', path: '/'},
-        {title: 'PROJECT', path: '/'},
-        {title: 'ABOUT', path: '/about'},
-      ],
-      Home:{
-        title: "Hi I am Shanelie ",
-        subTitle: "I like to code, paint and travel" ,
-
-      },
-      about:{
-        title: "A little bit about me ",
-        subTitle: "I like to code, paint and travel" ,
-
-      }
-    }
-  }
-
-  render(){
     return(
-      <Router>
       <Container className="p-0 " fluid={true}>
+      <Router>
       <Navbar className="border-bottom fstyle" bg="transparent" expand="lg">
       <Navbar.Brand className="pl-auto ">SHANELIE FERNANDES</Navbar.Brand>
       <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
       <Navbar.Collapse id="navbar-toggle">
       <Nav className="ml-auto" >
-      <Link className="nav-link" to="/">HOME</Link>
+      <a className="nav-link" href="/">HOME</a>
       <a className="nav-link" href="/#bottom">PROJECTS</a>
       <a className="nav-link" href="/paint">ART</a>
       <Link className="nav-link" to="/about">ABOUT</Link>
@@ -54,19 +31,22 @@ class App extends React.Component {
       </Nav>
       </Navbar.Collapse>
       </Navbar>
-       <Route path="/" exact render={() => <Homepage title={this.state.Home.title} subTitle={this.state.Home.subTitle} />} />
-       <Route path="/about" exact render={() => <About title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
 
-<Route path="/paint" exact component ={Paint} />
-<Route path="/design" exact component ={Design} />
-<Route path="/vis1" exact component ={Vis1} />
-<Route path="/mvis" exact component ={Mvis} />
-<Route path="/software" exact component ={Software} />
-      <Footer />
+
+      <Route  path="/Portfolio" exact component ={Homepage} />
+      <Route path="/about" exact component ={About} />
+      <Route path="/paint" exact component ={Paint} />
+      <Route path="/design" exact component ={Design} />
+      <Route path="/vis1" exact component ={Vis1} />
+      <Route path="/mvis" exact component ={Mvis} />
+      <Route path="/software" exact component ={Software} />
+
+</Router>
+<Footer/>
       </Container>
-      </Router>
+
     );
-  }
+
 }
 
 

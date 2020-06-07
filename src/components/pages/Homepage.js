@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {Component} from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import se from '../../assets/SE.png';
 import mv from '../../assets/mv.png';
@@ -12,7 +12,8 @@ import Design from "./Design";
 import Vis1 from "./Vis1";
 import Mvis from "./Mvis";
 import Software from "./Software";
-function Homepage(props){
+
+function Homepage(){
 
 
 
@@ -64,9 +65,10 @@ function Homepage(props){
       <Route path="/vis1" exact component ={Vis1} />
 
 
-            </Router>
+      </Router>
 
       </Container>
+
 
 
 
@@ -74,5 +76,4 @@ function Homepage(props){
   }
 
 
-
-export default Homepage;
+  export default  Homepage;

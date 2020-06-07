@@ -28,7 +28,7 @@ class Paint extends React.Component {
           <Col md={8} sm={10}>
                       <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>I like to <mark>paint</mark> landscapes</h4>
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} >
-                      <p> My painting are inspired by nature and places I have travelled to. The painting mediums mostly used are acrylics and
+                      <p> My paintings are inspired by nature and places I have travelled to. The painting mediums mostly used are acrylics and
                       gouache colours.
                       </p>
                       </h3>
@@ -78,7 +78,6 @@ class Paint extends React.Component {
           </Row>
         </Container>
       </Jumbotron>
-
       </Container>
 
 
