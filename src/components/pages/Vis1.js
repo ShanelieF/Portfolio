@@ -24,26 +24,26 @@ function Vis1(props) {
                     <h3 style={{ fontSize:'20px', fontWeight: '100'}}>
                         <p >
                         The objective was to create a biology visualisation to demonstrate the process of virus transmission.
-                        A particle system model was used to create the visualiosation. Particle system provides an abstraction for cells and can have various characteristics eg velocity,
+                        A particle system model was used to create the visualisation. Particle system provides an abstraction for cells and can have various characteristics eg velocity,
                         acceleration, etc. The model would be temporal as the user would be able to see
                         how the infected cells affect the healthy cells over a period of time. The audience for
-                        this visualisation would be students and the aim of the visualisation would be to provide a visual
+                        this visualisation would be students and the visualisation would aim to provide a visual
                         aid in understanding how viruses are transmitted considering factors such as immune system, infectiousness, etc.
                         </p>
 
                     <Row id={'bottom'} className="pl-3 pt-5 pb-3" style={{ fontSize:'14px', fontWeight: 'bold'}}>RESEARCH</Row>
                     <p>
-                    The reserach consucted for this project inluded identifying what viruses are and how they are transmitted. The key findings are:
+                    The reserach conducted for this project inluded identifying what viruses are and how they are transmitted. The key findings are:
                     </p>
                     <li className="p-1 pl-4">Viruses consist of a shell made of protein. The protein encapsulations either DNA or RNA with enzymes for replication and
                     manipulation of their genetic material.</li>
-                    <li className="p-1 pl-4">To replicate Viruses need a host onto which they attach themselves and cells are the perfect host</li>
+                    <li className="p-1 pl-4">To replicate viruses need a host onto which they attach themselves and cells are the perfect host</li>
                     <li className="p-1 pl-4">Once the virus enters the cell, it can release
                     RNA which causes the cell to create the viruses protein.</li>
                     <li className="p-1 pl-4"> This then leads to the cells killing itself or the membrane of the cell
                     gets dissolved. Now the viruses can emerge and spread to other cells.</li>
-                    <p className="pt-3">The transmission process is more complicated with processs such as lysis, endocytosis, etc. This project
-                    only looks at the basic idea as it is targeted towards younger students.
+                    <p className="pt-3">The transmission process is more complicated with processs such as lysis, endocytosis, etc involved. This project
+                    only looks at the basic idea as statistical data was required to make it highly accurate.
                     </p>
 
                     <Row id={'bottom'} className="pl-3 pt-5 pb-1" style={{ fontSize:'14px', fontWeight: 'bold'}}>FLOWCHART</Row>
@@ -83,13 +83,12 @@ function Vis1(props) {
                     and viruses but can be given similar functionality. Using the flow field in the particle system allows the particles
                     to move around in different directions which would be similar to real life.
                     <div>
-                    The use of the continuous graph makes the visualisation increases the effectiveness of the model as the user is able
-                    to see the general trends and pattern at a given frame count which would otherwise not be visible through the particle
+                    The use of the continuous graph increases the effectiveness of the visualisation as the user can see the general trends and patterns at a given frame count which would otherwise not be visible through the particle
                     system alone.
                     </div>
                     To improve this model, I would need to create the model for a specific virus rather than general. If I make it more
                     specific, I will be able to get some stats which would be useful in creating an accurate and highly realistic model.
-                    It would then also serve as a better resource to students as it will have established stats backing the visualisation.
+                    It would then also serve as a better resource to students as it will have established statistics backing the visualisation.
 
                      </p>
                     </h3>

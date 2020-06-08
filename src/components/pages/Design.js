@@ -19,7 +19,7 @@ class Design extends React.Component {
         <Container fluid={true}>
           <Row className="justify-content-around">
           <Col md={8} sm={10}>
-                      <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>Progress takes <mark>time</mark> </h4>
+                      <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>Experimenting with digital design</h4>
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} >
                       <p> A beginner at illustrator. More content coming soon :)
                       </p>
