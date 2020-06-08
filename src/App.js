@@ -22,8 +22,8 @@ function App() {
       <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
       <Navbar.Collapse id="navbar-toggle">
       <Nav className="ml-auto" >
-      <a className="nav-link" href="/Portfolio">HOME</a>
-      <a className="nav-link" href="/Portfolio/#bottom">PROJECTS</a>
+      <a className="nav-link" href="/">HOME</a>
+      <a className="nav-link" href="/#bottom">PROJECTS</a>
       <a className="nav-link" href="/paint">ART</a>
       <Link className="nav-link" to="/about">ABOUT</Link>
 
@@ -33,7 +33,7 @@ function App() {
       </Navbar>
 
 
-      <Route path="/Portfolio" exact component ={Homepage} />
+      <Route path="/" exact component ={Homepage} />
       <Route path="/about" exact component ={About} />
       <Route path="/paint" exact component ={Paint} />
       <Route path="/design" exact component ={Design} />
