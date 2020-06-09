@@ -23,7 +23,7 @@ function Homepage(){
       <Jumbotron className="bg-transparent ">
         <div fluid={true}>
           <Row className="justify-content-around ">
-          <Col md={8} sm={10}>
+          <Col md={10} sm={10}>
                       <h3 style={{ fontSize:'46px', fontWeight: 'bold'}}><mark style={{backgroundColor:'#b4e0db'}} >Hi</mark>, I am <mark>Shanelie</mark></h3>
                       <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>I <a className="st" href="#bottom"> code</a> , <a className="st1" href="/paint"> paint</a> & <a className="st" href="/design">design </a></h4>
 
