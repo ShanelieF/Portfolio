@@ -10,7 +10,7 @@ import graph from '../../assets/graph.png';
 function Vis1(props) {
 
   return(
-    <Container fluid="xl" className="justify-content-center pt-5">
+    <div className="container-fluid justify-content-center pt-5">
         <Jumbotron className="bg-transparent ">
             <Container fluid={true}>
                 <Row className="justify-content-around">
@@ -101,7 +101,7 @@ function Vis1(props) {
 
 
 
-    </Container>
+    </div>
 
 
   );

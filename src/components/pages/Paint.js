@@ -21,7 +21,7 @@ class Paint extends React.Component {
 
     return(
 
-      <Container fluid="xl" className="justify-content-center pt-5">
+      <div className="container-fluid justify-content-center pt-5">
       <Jumbotron className="bg-transparent ">
         <Container fluid={true}>
           <Row className="justify-content-around">
@@ -32,53 +32,55 @@ class Paint extends React.Component {
                       gouache colours.
                       </p>
                       </h3>
+                      <div className="container1">
                       <img
-                        className="w-50"
+                        className="box image-fluid"
                         src={img1}
                         alt="First slide"
                       />
                       <img
-                        className=" w-50"
+                        className="box image-fluid"
                         src={img2}
                         alt="Third slide"
                       />
                       <img
-                        className="w-50"
+                        className="box image-fluid"
                         src={img3}
                         alt="Third slide"
                       />
                       <img
-                        className="w-50"
+                        className="box image-fluid"
                         src={img6}
                         alt="Third slide"
                       />
                       <img
-                        className=" w-50"
+                        className="box image-fluid"
                         src={img5}
                         alt="Third slide"
                       />
                       <img
-                        className=" w-50"
+                        className="box image-fluid"
                         src={img7}
                         alt="Third slide"
                       />
                       <img
-                        className=" w-50"
+                        className="box image-fluid"
                         src={img4}
                         alt="Third slide"
                       />
                       <img
-                        className=" w-50"
+                        className="box image-fluid"
                         src={img8}
                         alt="Third slide"
                       />
+                      </div>
 
 
           </Col>
           </Row>
         </Container>
       </Jumbotron>
-      </Container>
+      </div>
 
 
 

@@ -25,7 +25,8 @@ function Homepage(){
           <Row className="justify-content-around ">
           <Col md={8} sm={10}>
                       <h3 style={{ fontSize:'46px', fontWeight: 'bold'}}><mark style={{backgroundColor:'#b4e0db'}} >Hi</mark>, I am <mark>Shanelie</mark></h3>
-                      <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>I <a className="st" href="#bottom"> code</a> , <a className="st1" href="/paint"> paint</a> & <a className="st" href="/design">design</a></h4>
+                      <h4 style={{ fontSize:'44px', fontWeight: 'bold'}}>I <a className="st" href="#bottom"> code</a> , <a className="st1" href="/paint"> paint</a> & <a className="st" href="/design">design </a></h4>
+
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} > I am a third-year student at the University of Warwick
                       studying BSc Computer Science with Business studies. Studying Computer Science I have enjoyed the challenge of solving
                       problems. I am an art and design enthusiast and I look forward to combining my interests as I aspire to be a UI/UX designer. </h3>

@@ -10,7 +10,7 @@ import map3 from '../../assets/md.jpeg';
 function Mvis(props) {
 
     return(
-      <Container fluid="xl" className="justify-content-center pt-5">
+      <div className="container-fluid justify-content-center pt-5">
           <Jumbotron className="bg-transparent ">
               <Container fluid={true}>
                   <Row className="justify-content-around">
@@ -107,7 +107,7 @@ function Mvis(props) {
           </Jumbotron>
 
 
-      </Container>
+      </div>
 
     );
 
