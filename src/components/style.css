@@ -151,7 +151,7 @@ and (max-device-width : 900px) {
       }
 
       .box{
-        width: 270px;
+        width: 250px;
 
         height: 450px;
 
@@ -212,8 +212,8 @@ and (max-device-width : 1024px) {
         width: 50vw;
       }
       .box{
-        width: 300px;
-        height: 500px;
+        width: 230px;
+        height: 384px;
 
       }
 }
