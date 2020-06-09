@@ -128,6 +128,7 @@ a.st2:hover {
   }
   .box{
     width: 200px;
+    height: 333px;
 
   }
 
@@ -148,6 +149,8 @@ and (max-device-width : 900px) {
       .box{
         width: 270px;
 
+        height: 450px;
+
       }
 }
 
@@ -165,6 +168,7 @@ and (max-device-width : 1024px) {
         }
         .box{
           width: 220px;
+          height: 367px;
 
         }
 }
@@ -184,6 +188,7 @@ and (max-device-width : 1024px) {
       }
       .box{
         width: 270px;
+        height: 450px;
 
       }
 }
@@ -204,6 +209,7 @@ and (max-device-width : 1024px) {
       }
       .box{
         width: 300px;
+        height: 500px;
 
       }
 }
