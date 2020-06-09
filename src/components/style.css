@@ -58,6 +58,12 @@ a.st1:hover {
   border-bottom: none;
 }
 
+a.st3 {
+  color: transparent;
+  text-decoration: none;
+  -webkit-text-stroke: 1px var(--othermain);
+}
+
 .st2 {
   color: transparent;
   text-decoration: none;
