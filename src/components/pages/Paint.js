@@ -75,6 +75,8 @@ class Paint extends React.Component {
                       />
                       </div>
 
+                      </h3>
+
 
           </Col>
           </Row>

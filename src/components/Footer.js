@@ -17,7 +17,7 @@ function Footer(){
 
         </Row>
         <Row className=" justify-content-center pt-1 fstyle" style={{ fontSize:'14px'}}>
-        Don't be a stanger, just say Hello!
+        Don't be a stranger, just say Hello!
         </Row>
         <Row className=" justify-content-center pt-3 pb-5" >
         <Col className="p-0 d-flex justify-content-center"  >
