@@ -13,6 +13,7 @@ import img5 from '../../assets/img5.jpg';
 import img6 from '../../assets/img6.jpg';
 import img7 from '../../assets/img7.jpg';
 import img8 from '../../assets/img8.jpg';
+import img9 from '../../assets/img9.JPG';
 
 class Paint extends React.Component {
 
@@ -73,9 +74,14 @@ class Paint extends React.Component {
                         src={img8}
                         alt="Third slide"
                       />
+                      <img
+                        className="box image-fluid"
+                        src={img9}
+                        alt="Skies of blue"
+                      />
                       </div>
 
-            
+
 
 
           </Col>

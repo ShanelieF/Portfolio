@@ -18,7 +18,7 @@ function About(props){
                       <h3 style={{ fontSize:'46px', fontWeight: 'bold'}}>A <mark>little</mark> bit about me</h3>
 
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} >
-                    <p className="pt-4">I was born in 1999 in Goa, India and currently reside in the UK. Having moved to the UK at age 12, I quickly accommodated to a different culture. My schooling experience in India has made me
+                    <p className="pt-4">I was born in Goa, India and currently reside in the UK. Having moved to the UK at age 12, I quickly acclimatized to a different culture. My schooling experience in India has made me
                     competitive and has directed me to be focused to achieve my goals.
                     Having completed my GCSE’s and A-levels in the UK, I have enjoyed the application and tutorial approach.
                     The different approaches to learning have influenced me to be the person I am – focused, tenacious and determined.</p>
@@ -30,6 +30,13 @@ function About(props){
                       combines my interest in both Design and Technology.
                       <Emoji symbol="😎" label="B)" /> </p>
 
+                      <Row id={'bottom'} className="pl-3 pt-3" style={{ fontSize:'14px', fontWeight: 'bold'}}>MODULES TAKEN: YEAR 1 </Row>
+                    <p className=" pt-3">Visualisation, Programming for Computer Scientists, Design of Information Structures, Computer Security,
+                    Mathematics I, Mathematics II, Professional Skills, Computer Organisation and Architecture</p>
+
+                    <Row id={'bottom'} className="pl-3 pt-3" style={{ fontSize:'14px', fontWeight: 'bold'}}>MODULES TAKEN: YEAR 2</Row>
+                  <p className=" pt-3">Operating Systems and Computer Networks, Algorithms, Logic and Verification, Formal Languages, Databases, Software Engineering,
+                  Marketing </p>
 
 
                         <Row id={'bottom'} className="pl-3 pt-3" style={{ fontSize:'14px', fontWeight: 'bold'}}>LANGUAGES I'VE WORKED WITH </Row>
@@ -37,12 +44,6 @@ function About(props){
 
                       <Row id={'bottom'} className="pl-3 pt-4" style={{ fontSize:'14px', fontWeight: 'bold'}}>TOOLS/FRAMEWORKS </Row>
                     <p className=" pt-3">React, Semantic UI, Bootstrap, SQLite, Processing, UNIX, LaTeX/BibTeX, Adobe XD</p>
-
-
-
-
-
-
 
                        </h3>
           </Col>
