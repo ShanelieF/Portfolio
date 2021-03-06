@@ -29,7 +29,7 @@ function Homepage(){
 
                       <h3 style={{ fontSize:'20px', fontWeight: '100'}} > I am a third-year student at the University of Warwick
                       studying BSc Computer Science with Business studies. Studying Computer Science I have enjoyed the challenge of solving
-                      problems. I am an art and design enthusiast and I look forward to combining my interests as I aspire to be a UI/UX designer. </h3>
+                      problems. I aspire to be working in an interdisciplinary field combining my knowledge from Business and Computer Science. </h3>
           </Col>
           </Row>
         </div>
