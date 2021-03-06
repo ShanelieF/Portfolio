@@ -26,7 +26,7 @@ function About(props){
                       choosing a degree to study, I was conflicted between Graphic design and Computer Science. I chose the latter and
                       it has been a great experience so far!</p>
                     <p>  Through the ups and downs of university, I have become resilient and persistent. I always look forward to learning new
-                    skills and improve upon my existing ones. I aspire to become a UI/UX designer as it
+                    skills and improve upon my existing ones. I aspire to be working in a field that
                       combines my interest in both Design and Technology.
                       <Emoji symbol="😎" label="B)" /> </p>
 
